@@ -9,26 +9,29 @@
     <title>Fine French Cuisine || Fine Dining</title>
 </head>
 <body>
-
+    <!-- Landing page of website -->
     <section id="landing_page">
         <div class="landing_page_content">
             <h1 class="title py-20 my-10">Le Chiffre</h1>
-            <ul>
+            <ul> 
                 <li class="mx-30 grow"><a href="#menu_info">Menu</a></li>
                 <li class="mx-30 grow"><a href="#reservations">Reservations</a></li>
                 <li class="mx-30 grow"><a href="#about_us">About</a></li>
             </ul> 
         </div>
     </section>
+    <!-- Menu information section -->
     <section id="menu_info">
         <div class="menu_text_container">
             <div class="menu_groups">
                 <ul>
+                    <!-- Links will change what is displayed on screen -->
                     <li class="mx-30 grow"><a onclick = "swap_menu_items(this)">Appatizers</a></li>
                     <li class="mx-30 grow"><a onclick = "swap_menu_items(this)">Entrees</a></li>
                     <li class="mx-30 grow"><a onclick = "swap_menu_items(this)">Dessert</a></li>
                 </ul> 
             </div>
+            <!-- Menu decription -->
             <div class="menu_items">
                 <h3 class="dish_title py-10 my-20">Bruschetta Board</h3>
                 <p class="dish_description">
@@ -53,11 +56,14 @@
                 </p>
             </div>
         </div>
+        <!-- photo of food -->
         <div class="photo_box">
             <img src="./img/marc-babin-626525-unsplash.jpg" alt="" srcset="" class="img">
         </div>
     </section>
+    <!-- About us -->
     <section id="about_us">
+        <!-- horizonatal content row -->
         <div class="content_row py-10 my-10">
             <div id="about_us_photo_1" class="photo_container px-10 py-10 mx-10 my-10"></div>
             <div class="about_us_text_container px-10 py-10 mx-10 my-10">
@@ -69,6 +75,7 @@
             </p>
             </div>
         </div>
+        <!-- horizonatal content row -->
         <div class="content_row py-10 my-10">
             <div class="about_us_text_container px-10 py-10 mx-10 my-10">
             <h2 class="about_us_title">Our Future</h2>
@@ -81,6 +88,7 @@
             <div id="about_us_photo_2" class="photo_container px-10 py-10 mx-10 my-10"></div>
         </div>
     </section>
+    <!-- Reservations -->
     <section id="reservations" >
         <div class="form_container">
             <form action="#" class="input_form py-20 px-20">

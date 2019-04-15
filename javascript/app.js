@@ -2,6 +2,7 @@
 const menu_items = [3];
 const photo_array = [3];
 
+// Html to replace image in menu info section
 photo_array[0] = `
             
                 <img src="./img/marc-babin-626525-unsplash.jpg" alt="" srcset="" class="img">
@@ -47,6 +48,7 @@ menu_items[0] = `
             </p>
 `;
 
+// Replacement menu descriptions
 menu_items[1] = `
             <h3 class="dish_title py-10 my-20">Bruschetta Board</h3>
             <p class="dish_description">
@@ -95,6 +97,10 @@ menu_items[2] = `
             </p>
 `;
 
+// This function will swap the menu items 
+// and pictures with the appropriate 
+// section. The user gets to choose this
+// section on the page
 function swap_menu_items(object){
     let section = object.text;
     let menu = document.querySelector(".menu_items");

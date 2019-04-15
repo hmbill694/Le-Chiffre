@@ -44,6 +44,7 @@ body{
 
 .py-30{ padding: 0 30px;}
 
+/* Grow functions */
 .grow{
     transition: all .3s ease-in-out;
 }
@@ -265,6 +266,7 @@ body{
     
 }
 
+/* Hover effect with button */
 #reservations .form_container .submit_button:hover{
     background-color:rgb(226, 213, 33);
     transition: .3s;
