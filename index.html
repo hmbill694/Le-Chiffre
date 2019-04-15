@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/app.js"></script>
+    <title>Fine French Cuisine || Fine Dining</title>
+</head>
+<body>
+
+    <section id="landing_page">
+        <div class="landing_page_content">
+            <h1 class="title py-20 my-10">Le Chiffre</h1>
+            <ul>
+                <li class="mx-30 grow"><a href="#menu_info">Menu</a></li>
+                <li class="mx-30 grow"><a href="#reservations">Reservations</a></li>
+                <li class="mx-30 grow"><a href="#about_us">About</a></li>
+            </ul> 
+        </div>
+    </section>
+    <section id="menu_info">
+        <div class="menu_text_container">
+            <div class="menu_groups">
+                <ul>
+                    <li class="mx-30 grow"><a onclick = "swap_menu_items(this)">Appatizers</a></li>
+                    <li class="mx-30 grow"><a onclick = "swap_menu_items(this)">Entrees</a></li>
+                    <li class="mx-30 grow"><a onclick = "swap_menu_items(this)">Dessert</a></li>
+                </ul> 
+            </div>
+            <div class="menu_items">
+                <h3 class="dish_title py-10 my-20">Bruschetta Board</h3>
+                <p class="dish_description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Exercitationem aliquam, alias rem minus atque maxime veniam eum nobis doloribus eligendi cum non mollitia aspernatur 
+                    ipsam placeat voluptatibus excepturi. Suscipit repellendus asperiores similique eveniet architecto voluptates voluptatibus corrupti 
+                    aspernatur nesciunt, ut reiciendis sequi amet autem dolorem ad expedita nemo nisi voluptatum!
+                </p>
+                <h3 class="dish_title py-10 my-20">charcuterie Platter</h3>
+                <p class="dish_description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Exercitationem aliquam, alias rem minus atque maxime veniam eum nobis doloribus eligendi cum non mollitia aspernatur 
+                    ipsam placeat voluptatibus excepturi. Suscipit repellendus asperiores similique eveniet architecto voluptates voluptatibus corrupti 
+                    aspernatur nesciunt, ut reiciendis sequi amet autem dolorem ad expedita nemo nisi voluptatum!
+                </p>
+                <h3 class="dish_title py-10 my-20">Spring Rolls</h3>
+                <p class="dish_description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Exercitationem aliquam, alias rem minus atque maxime veniam eum nobis doloribus eligendi cum non mollitia aspernatur 
+                    ipsam placeat voluptatibus excepturi. Suscipit repellendus asperiores similique eveniet architecto voluptates voluptatibus corrupti 
+                    aspernatur nesciunt, ut reiciendis sequi amet autem dolorem ad expedita nemo nisi voluptatum!
+                </p>
+            </div>
+        </div>
+        <div class="photo_box">
+            <img src="./img/marc-babin-626525-unsplash.jpg" alt="" srcset="" class="img">
+        </div>
+    </section>
+    <section id="about_us">
+        <div class="content_row py-10 my-10">
+            <div id="about_us_photo_1" class="photo_container px-10 py-10 mx-10 my-10"></div>
+            <div class="about_us_text_container px-10 py-10 mx-10 my-10">
+            <h2 class="about_us_title">Our History</h2>
+            <p class="about_us_description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ducimus officia nemo omnis, sed vel maxime temporibus nostrum dolores iusto nihil, 
+                repellat autem expedita quos iure veniam nulla perferendis exercitationem natus labore ex ullam fugit dolorum? Aut inventore sapiente eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum optio provident ullam? Perspiciatis magnam consequuntur corporis voluptatum deleniti! Tenetur minima eius expedita ad quisquam itaque temporibus impedit neque. Officiis non recusandae, 
+                neque nam, voluptas ratione aperiam eveniet voluptatum, hic eligendi corrupti? Distinctio ducimus maiores praesentium expedita temporibus rem veniam tempore.
+            </p>
+            </div>
+        </div>
+        <div class="content_row py-10 my-10">
+            <div class="about_us_text_container px-10 py-10 mx-10 my-10">
+            <h2 class="about_us_title">Our Future</h2>
+            <p class="about_us_description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati ducimus officia nemo omnis, sed vel maxime temporibus nostrum dolores iusto nihil, 
+                repellat autem expedita quos iure veniam nulla perferendis exercitationem natus labore ex ullam fugit dolorum? Aut inventore sapiente eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum optio provident ullam? Perspiciatis magnam consequuntur corporis voluptatum deleniti! Tenetur minima eius expedita ad quisquam itaque temporibus impedit neque. Officiis non recusandae, 
+                neque nam, voluptas ratione aperiam eveniet voluptatum, hic eligendi corrupti? Distinctio ducimus maiores praesentium expedita temporibus rem veniam tempore.
+            </p>
+            </div>
+            <div id="about_us_photo_2" class="photo_container px-10 py-10 mx-10 my-10"></div>
+        </div>
+    </section>
+    <section id="reservations" >
+        <div class="form_container">
+            <form action="#" class="input_form py-20 px-20">
+                <h3 class="form_title">Book your Table</h3>
+                <input type="text" name="Full Name" id="full_name" placeholder="Full Name"class="info_sub my-10">
+                <input type="email" name="email" id="email" placeholder="Email" class="info_sub my-10">
+                <button type="submit"class="submit_button">Book Now</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

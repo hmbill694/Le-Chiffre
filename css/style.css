@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Utilities */
+
+/* margins */
+.my-10 {margin: 10px 0;}
+
+.my-20 {margin: 20px 0;}
+
+.my-30{ margin: 30px 0;}
+
+.mx-10 {margin: 0 10px;}
+
+.mx-20 {margin: 0 20px;}
+
+.mx-30{ margin: 0 30px;}
+
+/* Paddings */
+.px-10 {padding: 10px 0;}
+
+.px-20 {padding: 20px 0;}
+
+.px-30{ padding: 30px 0;}
+
+.py-10 {padding: 0 10px;}
+
+.py-20 {padding: 0 20px;}
+
+.py-30{ padding: 0 30px;}
+
+.grow{
+    transition: all .3s ease-in-out;
+}
+
+.grow:hover{
+    transform: scale(1.2);
+}
+
+
+
+/* Landing page */
+#landing_page{
+    height: 100vh;
+    background: url("../img/board-bread-cheese-1893609.jpg") no-repeat
+                    center center/cover;
+    
+    
+}
+
+#landing_page .landing_page_content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+#landing_page .landing_page_content .title{
+    font-size: 3.6rem;
+    color: white;
+}
+#landing_page .landing_page_content ul{
+    display: flex;
+    list-style: none;
+}
+
+#landing_page .landing_page_content li{
+    font-size: 2.3rem;
+}
+
+#landing_page .landing_page_content li a{
+    text-decoration: none;
+    color: white;   
+}
+
+#landing_page .landing_page_content li a:hover{
+       color: black;
+       transition: .3s;
+       text-decoration: underline;
+}
+
+/* Menu */
+#menu_info{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFAFA;
+}
+#menu_info .menu_text_container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#menu_info .menu_text_container .menu_groups{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2.3rem;
+}
+
+#menu_info .menu_text_container .menu_groups ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+
+#menu_info .menu_text_container .menu_groups li{
+    font-size: 1.9rem;
+}
+
+#menu_info .menu_text_container .menu_groups li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#menu_info .menu_text_container .menu_groups li a:hover{
+    color: rgb(226, 213, 33);
+    font-size: 1.9rem;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+#menu_info .menu_text_container .menu_items .dish_description{
+    font-size: 1.2rem;
+}
+
+#menu_info .menu_text_container .menu_items .dish_title{
+    font-size: 1.9rem;
+}
+
+
+#menu_info .photo_box{
+    flex: 1;
+}
+
+#menu_info .photo_box .img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* about us */
+#about_us{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFAFA;
+}
+
+#about_us .content_row{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    
+}
+
+#about_us .content_row .about_us_text_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 50%;
+    
+}
+
+#about_us .content_row .photo_container{
+    flex: 1;
+    flex-wrap: nowrap;
+    width: 50%;
+}
+
+#about_us .content_row #about_us_photo_1{
+    background: url("../img/earth-608350-unsplash.jpg") no-repeat
+                center center/cover;
+}
+
+#about_us .content_row #about_us_photo_2{
+    background: url("../img/zachary-staines-181102-unsplash.jpg") no-repeat
+                center center/cover;
+}
+
+/* Reservations */
+#reservations{
+    height: 100vh;
+    background: url("../img/photo-1467003909585-2f8a72700288.jpeg") no-repeat
+    center center/cover;
+}
+
+#reservations .form_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 1.7rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.10);
+    min-height: 100%;
+    min-width: 100%;
+}
+
+#reservations .form_container .form_title{
+    margin: .8rem;
+}
+
+#reservations .form_container .input_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 25%;
+    min-height: 20%;
+    background-color: rgba(0, 0, 0, 0.95);
+    border-radius: 8px;
+}
+
+#reservations .form_container .info_sub{
+    width: 95%;
+    height: 1.3rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    margin: .8rem;
+    padding: .9rem;
+
+}
+
+#reservations .form_container .submit_button{
+    width: 50%;
+    height: 50%;
+    padding: .9rem;
+    margin: .8rem;
+    border-radius: 8px;
+    font-size: .6em;
+    
+}
+
+#reservations .form_container .submit_button:hover{
+    background-color:rgb(226, 213, 33);
+    transition: .3s;
+    cursor: pointer;
+}
